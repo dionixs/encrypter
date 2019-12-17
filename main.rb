@@ -17,6 +17,7 @@ puts "Каким способом зашифровать:\n1. MD5\n2. SHA1"
 way_encrypt = STDIN.gets.to_i
 puts
 
+puts "Вот что получилось:"
 if way_encrypt == 1
   encrypt_to_md5(str)
 else
